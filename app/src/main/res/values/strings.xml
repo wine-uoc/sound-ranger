@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FinalApp</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="stop_record">Stop record</string>
+    <string name="start_record">Start Record</string>
+    <string name="fft_calcul">FFT calcul</string>
+    <string name="graph_init">Graph init</string>
+</resources>
