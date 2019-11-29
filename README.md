@@ -11,11 +11,11 @@ Functionnement :
 The detection  is made by the Fast Fourier Transform that decompose the signal and identifies the frequency that we look for.
 
 
-The problems :
+The problem :
 - To calculate the last of the sound's way : the idea to calculate this time was to calculate the whole time of the exchange T and to multiplicate by the sound’s speed V to have the distance D. To subtract the time of treatment C, I suppose to measure the time when the two smartphones were touched and to remove this time from the total.
 	D = V x (T-C) 
 However, the time of treatment is changing due to the step copying of the buffer in an audio file and treat it by the Fast Fourier Transform thread. A solution would be to access the buffer in the recording function and to analyse it when it is full. However, this buffer is not compatible with my Fast Fourier Transform function. 
-- A final problem is that the application always crashes after 30 seconds running.
+
 
 Bibliography :
 GraphView library: https://github.com/jjoe64/GraphView/wiki/Simple-graph
